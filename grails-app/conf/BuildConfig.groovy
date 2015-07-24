@@ -68,7 +68,7 @@ grails.project.dependency.resolution = {
 		runtime ":jquery:1.11.1"
 		
 		// plugin richui 0.8
-		compile ":richui:0.8"
+//		compile ":richui:0.8"	// Segundo o professor esse plugin quebrou a versão do Grails
 
 		// Uncomment these to enable additional asset-pipeline capabilities
 		//compile ":sass-asset-pipeline:1.9.0"
