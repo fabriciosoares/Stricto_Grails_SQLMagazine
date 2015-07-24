@@ -1,0 +1,13 @@
+Testsuite: stricto_grails_exercicio.PostIntegrationSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0,085 sec
+------------- Standard Output ---------------
+--Output from Criando uma postagem--
+--Output from Acessando uma postagem no gráfico de objetos--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Criando uma postagem--
+--Output from Acessando uma postagem no gráfico de objetos--
+------------- ---------------- ---------------
+
+Testcase: Criando uma postagem took 0,022 sec
+Testcase: Acessando uma postagem no gráfico de objetos took 0,039 sec

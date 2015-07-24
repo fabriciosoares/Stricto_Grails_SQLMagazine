@@ -1,6 +1,6 @@
 package de.andreasschmitt.richui.taglib.renderer
 
-import org.codehaus.groovy.grails.commons.ConfigurationHolder
+//import org.codehaus.groovy.grails.commons.ConfigurationHolder
 
 class YuiUtils {
 	

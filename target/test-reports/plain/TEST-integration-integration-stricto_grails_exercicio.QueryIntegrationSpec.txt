@@ -1,0 +1,13 @@
+Testsuite: stricto_grails_exercicio.QueryIntegrationSpec
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 0,507 sec
+------------- Standard Output ---------------
+--Output from testBasicDynamicFinders--
+--Output from testEager--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from testBasicDynamicFinders--
+--Output from testEager--
+------------- ---------------- ---------------
+
+Testcase: testBasicDynamicFinders took 0,442 sec
+Testcase: testEager took 0,037 sec

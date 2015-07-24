@@ -1,0 +1,10 @@
+Testsuite: stricto_grails_exercicio.UserSpec
+Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0,118 sec
+------------- Standard Output ---------------
+--Output from Testing something--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Testing something--
+------------- ---------------- ---------------
+
+Testcase: Testing something took 0,108 sec

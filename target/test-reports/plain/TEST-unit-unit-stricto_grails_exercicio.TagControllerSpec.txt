@@ -1,0 +1,56 @@
+Testsuite: stricto_grails_exercicio.TagControllerSpec
+Tests run: 7, Failures: 1, Errors: 2, Time elapsed: 1,021 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 0,438 sec
+Testcase: Test the create action returns the correct model took 0,079 sec
+Testcase: Test the save action correctly persists an instance took 0,143 sec
+	Caused an ERROR
+Cannot redirect for object [stricto_grails_exercicio.Tag : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+org.codehaus.groovy.grails.web.servlet.mvc.exceptions.CannotRedirectException: Cannot redirect for object [stricto_grails_exercicio.Tag : (unsaved)] it is not a domain or has no identifier. Use an explicit redirect instead 
+	at org.grails.plugins.web.rest.api.ControllersRestApi.redirect(ControllersRestApi.groovy:53)
+	at stricto_grails_exercicio.TagController.tt__save_closure9_closure14(TagController.groovy:43)
+	at stricto_grails_exercicio.TagController.$tt__save(TagController.groovy:40)
+	at stricto_grails_exercicio.TagControllerSpec.Test the save action correctly persists an instance(TagControllerSpec.groovy:54)
+
+Testcase: Test that the show action returns the correct model took 0,098 sec
+Testcase: Test that the edit action returns the correct model took 0,067 sec
+Testcase: Test the update action performs an update on a valid domain instance took 0,11 sec
+	Caused an ERROR
+Cannot get property 'id' on null object
+java.lang.NullPointerException: Cannot get property 'id' on null object
+	at stricto_grails_exercicio.TagControllerSpec.Test the update action performs an update on a valid domain instance(TagControllerSpec.groovy:122)
+
+Testcase: Test that the delete action deletes an instance if it exists took 0,058 sec
+	FAILED
+Condition not satisfied:
+
+Tag.count() == 1
+    |       |
+    0       false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+Tag.count() == 1
+    |       |
+    0       false
+
+	at stricto_grails_exercicio.TagControllerSpec.Test that the delete action deletes an instance if it exists(TagControllerSpec.groovy:142)
+

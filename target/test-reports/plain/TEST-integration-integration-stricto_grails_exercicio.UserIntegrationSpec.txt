@@ -1,0 +1,22 @@
+Testsuite: stricto_grails_exercicio.UserIntegrationSpec
+Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 0,207 sec
+------------- Standard Output ---------------
+--Output from Salvar e obter usuário do banco--
+--Output from Salvar e atualizar no banco--
+--Output from Salvar, então apagar usuário do banco--
+--Output from Verificando erros de validação--
+--Output from Testar seguidores--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Salvar e obter usuário do banco--
+--Output from Salvar e atualizar no banco--
+--Output from Salvar, então apagar usuário do banco--
+--Output from Verificando erros de validação--
+--Output from Testar seguidores--
+------------- ---------------- ---------------
+
+Testcase: Salvar e obter usuário do banco took 0,016 sec
+Testcase: Salvar e atualizar no banco took 0,018 sec
+Testcase: Salvar, então apagar usuário do banco took 0,078 sec
+Testcase: Verificando erros de validação took 0,074 sec
+Testcase: Testar seguidores took 0,02 sec

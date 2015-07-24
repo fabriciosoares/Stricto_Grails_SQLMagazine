@@ -1,0 +1,2 @@
+--Output from Criando uma postagem--
+--Output from Acessando uma postagem no gráfico de objetos--
